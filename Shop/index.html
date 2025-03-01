@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simple shop</h1>
+    <div class="first">
+        <div class="items" id="tshirt">
+            <div style="margin-left: 30px;" id="imaget"><img src="image.png" alt=""></div>
+            <p style="font-size: larger; text-align:center " >T-shirt</p>
+            <p style="font-size: larger; text-align:center ">Rs-499</p>
+            <button onclick="addtocart('T-shirt',499)">Add to cart</button>
+        </div>
+
+
+        <div class="items" id="jeans">
+            <div style="margin-left: 25px;" id="imagej"><img src="jens.jpg" alt=""></div>
+            <p style="font-size: larger; text-align:center " >Jeans</p>
+            <p style="font-size: larger; text-align:center ">Rs-1499</p>
+            <button onclick="addtocart('jeans',1499)">Add to cart</button>
+        </div>
+
+
+        <div class="items" id="sneaker">
+            <div style="margin-left: 35px;" id="images"><img src="shoe.jpg" alt=""></div>
+            <p style="font-size: larger; text-align:center " >Shoes</p>
+            <p style="font-size: larger; text-align:center ">Rs-3999</p>
+            <button onclick="addtocart('shoes',3999)">Add to cart</button>
+        </div>
+    </div>
+    <h1>Shopping Cart</h1>
+    <div id="list"></div>
+   
+
+    <h1 id="totalprice">0</h1>
+    <script src="script.js"></script>
+</body>
+</html>

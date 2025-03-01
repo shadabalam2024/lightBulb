@@ -1,0 +1,93 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(197, 197, 197);
+}
+.container{
+    height: 90vh;
+    width: 130vb;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c4edf5;
+
+}
+.left{
+    height:90% ;
+    width: 45%;
+    border: 2px solid red;
+    margin: 15px;
+}
+.right{
+    height:90% ;
+    width: 45%;
+    border: 2px solid red;
+    margin: 15px;
+    overflow-wrap: break-word;
+    overflow: scroll;
+
+}
+
+#name{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    height: 20px;
+    border-radius: 5px;
+}
+#nameid{
+    margin-left: 30px;
+    font-size: large;
+}
+#contact{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#contactid{
+    margin-left: 30px;
+    font-size: large;
+}
+h2{
+    text-align: center;
+}
+#reviewbox{
+    resize: none;
+    width: 389px;
+    height: 450px;
+    margin-left: 25px;
+    font-size: 20px;
+    padding: 10px;
+}
+button{
+    margin-top: 10px;
+    margin-left: 180px;
+    height: 30px;
+    width: 110px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+p{
+    text-align: center;
+    font-size: large;
+
+}
+ul{
+    margin: 5px;
+    margin-top: 50px;
+
+}
+
+li{
+    margin: 10px;
+    list-style: lower-roman;
+    margin-left: -5px;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+
+}

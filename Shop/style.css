@@ -1,0 +1,98 @@
+.first{
+    border: 1px solid black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.items{
+    border: 1px solid black;
+    height: 80%;
+    width: 25%;
+    border-radius: 5px;
+}
+
+button{
+    height: 30px;
+    width: 80px;
+    margin-left: 230px;
+    margin-top: 15px;
+    cursor: pointer;
+    
+}
+
+#imaget{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px; /* Set your desired width */
+    height: 300px; /* Set your desired height */
+    overflow: hidden;
+  }
+
+#imaget img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+#imagej{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px; /* Set your desired width */
+    height: 300px; /* Set your desired height */
+    overflow: hidden;
+}
+
+#imagej img{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+#images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px; /* Set your desired width */
+    height: 300px; /* Set your desired height */
+    overflow: hidden;
+}
+#images img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#itemjs{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    /* margin-right: 4000px; */
+    /* justify-content: space-evenly; */
+}
+#addbtn{
+    font-size: 25px;
+    text-align: center;
+    /* margin-left: 1000px; */
+
+
+    
+}
+#subbtn{
+    text-align-last: center;
+    text-align: center;
+
+    font-size: x-large;
+}
+#pricetag{
+    margin-left: 100px;
+    margin-top: 60px;
+}
+#removebtn{
+    margin-right: -300px;
+}
+#quantity{
+    margin-left: 180px;
+    margin-top: 60px;
+}
